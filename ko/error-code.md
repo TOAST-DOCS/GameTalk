@@ -1,5 +1,6 @@
 ## Game > GameTalk > 오류 코드
 
+
 ## Client SDK
 
 | Platform           | Error                                    | Error Code | Description                              |
