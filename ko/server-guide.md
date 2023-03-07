@@ -1,14 +1,14 @@
 ## Game > GameTalk > API v1.0 가이드
 
-GameTalk Server API는 RESTful 형식으로, 다음과 같은 API를 제공합니다.
+GameTalk Server API는 RESTful 형식으로 다음과 같은 API를 제공합니다.
 
 ## Advance Notice
 
-서버 API를 사용하기 위해서는 다음과 같은 정보를 알고 있어야 합니다.
+Server API를 사용하려면 다음과 같은 정보들이 필요합니다.
 
-#### Server Address
+#### URL
 
-API를 호출하기 위한 서버 주소는 다음과 같습니다. 해당 주소는 GameTalk Console 화면에서도 확인 가능합니다.
+API를 호출하기 위한 URL(서버 주소)은 다음과 같습니다. 해당 주소는 GameTalk Console 화면에서도 확인할 수 있습니다.
 > https://api-gametalk-back.nhncloudservice.com
 
 ![pre_server_url_v1.0](https://static.toastoven.net/prod_gametalk/server/pre_server_url_v1.0.png)
@@ -21,15 +21,15 @@ AppKey는 GameTalk Console에서 확인할 수 있습니다.
 
 #### SecretKey
 
-비밀 키(secret key)는 API에 대한 접근 제어 방안으로, GameTalk Console에서 확인할 수 있습니다. 비밀 키는 Server API를 호출할 때 HTTP 헤더에 필수로 설정해야 합니다.
+비밀 키(secret key)는 API에 대한 접근 제어 방안으로 GameTalk Console에서 확인할 수 있습니다. 비밀 키는 Server API를 호출할 때 HTTP Header에 필수로 설정해야 합니다.
 > [참고]
-> 비밀 키가 외부에 노출되어 잘못된 호출이 발생한다면 **재생성** 버튼을 클릭하여 새로운 비밀 키를 만든 후, 새 비밀 키를 사용하면 됩니다.
+> 비밀 키가 외부에 노출되어 잘못된 호출이 발생할 경우 **재생성**을 클릭해 새 비밀 키를 생성한 뒤 새로 만든 비밀 키를 사용해야 합니다.
 
 ![pre_server_secretkey_v1.0](https://static.toastoven.net/prod_gametalk/server/pre_server_secretkey_v1.0.png)
 
 #### TransactionId
 
-API를 호출하는 서버에서 내부적으로 API 요청을 관리할 수 있는 방안으로 TransactionId 기능을 제공합니다. 호출하는 서버에서 HTTP 헤더에 트랜잭션 ID를 설정하여 API를 호출하면, Gamebase 서버는 응답 HTTP Header 및 응답 결과의 Response Body Header에 해당 TransactionId를 설정하여 결과를 전달합니다.
+TransactionId는 API를 호출하는 서버에서 내부적으로 API 요청을 관리할 수 있는 기능입니다. 호출 서버에서 HTTP Header에 트랜잭션 ID를 설정하여 API를 호출하면 GameTalk 서버는 응답 HTTP Header 및 응답 결과의 Response Body Header에 해당 TransactionId를 설정하여 결과를 전달합니다.
 
 ## Common
 
@@ -159,7 +159,7 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | result.type | String | 채널 타입 |
 | result.name | String | 채널명 |
 | result.regUser | String  | 생성자  |
-| result.regDate | Date  | 생성일시 ISO 8601  |
+| result.regDate | Date  | 생성 일시. 날짜와 시간은 ISO 8601 표준에 따름.  |
 | result.translation | String | 번역 사용 여부<br/>Y(사용), N(미사용) |
 | result.lastMessageId | String | 마지막 메시지 ID |
 | result.lastAdminMessageId | String | 마지막 공지 메시지 ID |
@@ -283,7 +283,7 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | page | int | optional | 페이지 번호(기본값은 0) |
 | size | int | optional | 한 페이지 목록 개수(기본값은 10) |
 | tagType | String | optional | 태그 검색 조건(기본값은 OR)<br/>OR, AND |
-| tagList | String | optional | 태그 ID 목록<br/>각 ID를 콤마(,)로 구분(1,2,3...) |
+| tagList | String | optional | 태그 ID 목록<br/>각 ID를 쉼표(,)로 구분(1, 2, 3...) |
 
 **[Request Body]**
 
@@ -347,7 +347,7 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | channelList[].type | String | 채널 타입 |
 | channelList[].name | String | 채널명 |
 | channelList[].regUser | String | 생성자 |
-| channelList[].regDate | Date | 생성일시 ISO 8601 |
+| channelList[].regDate | Date | 생성 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 | channelList[].translation | String | 자동 번역 사용 여부<br/>Y, N |
 | channelList[].lastMessageId | String | 마지막 메시지 ID |
 | channelList[].lastAdminMessageId | String | 마지막 공지 메시지 ID |
@@ -426,7 +426,7 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | result.type | String | 채널 타입 |
 | result.name | String | 채널명 |
 | result.regUser | String | 생성자 |
-| result.regDate | Date | 생성일시 ISO 8601 |
+| result.regDate | Date | 생성 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 | result.translation | String | 번역 사용 여부<br/>Y(사용), N(미사용) |
 | result.lastMessageId | String | 마지막 메시지 ID |
 | result.lastAdminMessageId | String | 마지막 공지 메시지 ID |
@@ -483,7 +483,7 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 
 #### Unsubscribe Channel
 
-채널을 구독해제 합니다.
+채널 구독을 해제합니다.
 
 **[Method, URI]**
 
@@ -603,7 +603,7 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | userList | Array[Object] | 구독자 정보 |
 | userList[].appKey | String | NHN Cloud 프로젝트 AppKey |
 | userList[].userId | String | 유저 ID |
-| userList[].regDate | Date | 구독일시 ISO 8601 |
+| userList[].regDate | Date | 구독 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 | userList[].languageCode | String | 언어 코드 |
 | userList[].valid | String | 유저 상태<br/>Y(정상), D(탈퇴) |
 
@@ -690,9 +690,9 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | tagList[].name | String | 태그명 |
 | tagList[].description | String | 태그 설명 |
 | tagList[].regUser | String | 생성자 |
-| tagList[].regDate | Date | 생성일시 ISO 8601 |
+| tagList[].regDate | Date | 생성 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 | tagList[].modUser | String | 수정자 |
-| tagList[].modDate | Date | 수정일시 ISO 8601 |
+| tagList[].modDate | Date | 수정 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 
 #### Get Tag
 
@@ -754,9 +754,9 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | result.name | String | 태그명 |
 | result.description | String | 태그 설명 |
 | result.regUser | String | 생성자 |
-| result.regDate | Date | 생성일시 ISO 8601 |
+| result.regDate | Date | 생성 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 | result.modUser | String | 수정자 |
-| result.modDate | Date | 수정일시 ISO 8601 |
+| result.modDate | Date | 수정 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 
 ## User
 
@@ -818,8 +818,8 @@ X-GT-Transaction-Id: 88a1ae42-6b1d-48c8-894e-54e97aca07fq
 | user.appKey | String | NHN Cloud 프로젝트 AppKey |
 | user.userId | String | 유저 ID |
 | user.languageCode | String | 언어 코드 |
-| user.regDate | Date | 생성일시 ISO 8601 |
-| user.lastLoginDate | Date | 마지막 접속일시 ISO 8601 |
+| user.regDate | Date | 생성 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
+| user.lastLoginDate | Date | 마지막 접속 일시. 날짜와 시간은 ISO 8601 표준에 따름. |
 | user.valid | String | 유저 상태<br/>Y(정상), D(탈퇴) |
 
 #### Withdraw
