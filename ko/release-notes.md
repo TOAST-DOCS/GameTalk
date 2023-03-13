@@ -1,6 +1,6 @@
 ## Game > GameTalk > 릴리스 노트
 
-### 1.0.0(2022.12.27)
+### 1.0.0 (2022. 12. 27.)
 
 [SDK Download](https://static.toastoven.net/toastcloud/sdk_download/gametalk/GameTalkSDK_Unity.zip)
 
@@ -13,3 +13,4 @@
         * 비속어, 불법 광고를 방지하기 위한 금칙어 설정이 가능합니다.
         * 관리자를 위한 공지 메시지 기능을 별도로 제공합니다.
         * 채널에서 유저를 검색하고 관리할 수 있습니다.
+        
