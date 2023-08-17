@@ -12,7 +12,7 @@
 
 ## Key Features
 
-![GameTalk_features](http://static.toastoven.net/prod_gametalk/gametalk_overview_kr_v1.1.0.png)
+![GameTalk_features](http://static.toastoven.net/prod_gametalk/gametalk_overview_jp_v1.1.0.png)
 
 ### チャンネル管理
 
@@ -36,8 +36,7 @@
 
 ### 通知メッセージ
 
-すべてのユーザーまたは特定チャンネルのユーザーを対象に通知メッセージを送信できます。
-即時送信、予約送信、繰り返し送信機能を活用して、様々な性質の通知メッセージをユーザーに送ることができます。
+すべてのユーザーまたは特定チャンネルのユーザーを対象に通知メッセージを送信できます。<br>即時送信、予約送信、繰り返し送信機能を活用して、様々な性質の通知メッセージをユーザーに送ることができます。
 
 ## Terms
 
