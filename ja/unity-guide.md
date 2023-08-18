@@ -369,30 +369,6 @@ private void DeleteUserInfo()
 }
 ```
 
-### RemoveEvent
-
-登録されたハンドラを削除します。
-
-**API**
-
-Supported Platforms
-<span style="color:#B60205; font-size: 10pt">■</span> UNITY_EDITOR
-<span style="color:#0E8A16; font-size: 10pt">■</span> UNITY_ANDROID
-<span style="color:#1D76DB; font-size: 10pt">■</span> UNITY_IOS
-
-```cs
-static void RemoveEvent()
-```
-
-**Example**
-
-```cs
-public void RemoveEventExample()
-{
-    GameTalk.RemoveEvent();
-}
-```
-
 ### MappingUserInfo
 
 ユーザー認証情報をGameTalkでマッピングします。
