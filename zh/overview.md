@@ -36,8 +36,7 @@ You can set swear words, various slang words, and advertisements that interfere 
 
 ### Announcement Message
 
-You can send announcement messages to all users or users on a specific channel.<br>
-You can send various types of announcement messages to users by using the immediate send, scheduled send, and repetitive send features.
+You can send announcement messages to all users or users on a specific channel.<br>You can send various types of announcement messages to users by using the immediate send, scheduled send, and repetitive send features.
 
 ## Terms
 
