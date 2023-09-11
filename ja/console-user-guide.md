@@ -18,7 +18,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 チャンネルを照会・作成・修正・削除できます。
 
 ### チャンネルリストの照会
-![gametalk_channel_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_1_230629.png)
+![gametalk_channel_1_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_channel_1_230911.png)
 
 #### (1)検索条件
 
@@ -49,7 +49,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 
 ### チャンネルの作成
-![gametalk_channel_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_2_230629.png)
+![gametalk_channel_2_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_channel_2_230831.png)
 
 #### (1)チャンネル名
 使用するチャンネル名を入力します。 
@@ -70,14 +70,14 @@ GameTalkコンソールは、次のメニューで構成されています。
 #### (4)タグの登録
 タグを登録できます。
 
-![gametalk_channel_3_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_3_230629.png)
+![gametalk_channel_3_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_channel_3_230831.png)
 
 #### (5)チャンネル自動削除
 チャンネルの購読人数が0人になった時、チャンネルが自動的に削除されます。
 ユーザーのチャンネル購読解除時点でチャンネルを削除するかどうかを検査します。
 
 ### チャンネル情報の照会
-![gametalk_channel_4_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_4_230629.png)
+![gametalk_channel_4_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_channel_4_230911.png)
 
 #### (1)チャンネル名
 チャンネルを作成する時に入力したチャンネル名です。
@@ -109,7 +109,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 #### (10)チャンネルメンバー
 現在チャンネルを購読しているユーザー数です。
 
-![gametalk_channel_5_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_5_230731.png)
+![gametalk_channel_5_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_channel_5_230831.png)
 
 チャンネルの購読者情報を照会できます。
 
@@ -121,7 +121,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 #### (13)修正
 
-![gametalk_channel_6_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_6_230629.png)
+![gametalk_channel_6_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_channel_6_230911.png)
 
 **修正**をクリックすると、チャンネル情報を修正できる画面に切り替わります。
 **チャンネル名、チャンネルエイリアス、チャンネルタグ、チャンネル自動削除を行うかどうか**を修正できます。
@@ -143,7 +143,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 ### タグリストの照会
 
-![gametalk_tag_1_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_1_230731.png)
+![gametalk_tag_1_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_tag_1_230831.png)
 
 登録したタグを照会できます。
 
@@ -153,7 +153,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 
 ### タグの登録
-![gametalk_tag_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_2_230629.png)
+![gametalk_tag_2_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_tag_2_230831.png)
 
 タグを登録できます。
 
@@ -176,7 +176,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 ### タグ情報の照会
 
-![gametalk_tag_3_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_3_230629.png)
+![gametalk_tag_3_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_tag_3_230831.png)
 
 #### (1)チャンネルタグ名
 チャンネルタグを登録する時に入力したチャンネルタグ名です。
@@ -191,7 +191,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 チャンネルタグを作成したユーザーのEmailと作成した日付が表示されます。
 
 #### (5)修正
-![gametalk_tag_4_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_4_230629.png)
+![gametalk_tag_4_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_tag_4_230831.png)
 チャンネルタグ名とタグ説明を修正できます。
 
 #### (6)削除
@@ -208,7 +208,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 ### 通知メッセージリスト照会
 
-![gametalk_announcement_1_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_1_230731.png)
+![gametalk_announcement_1_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_announcement_1_230831.png)
 
 #### (1)送信タイプ
 
@@ -241,7 +241,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 
 
 ### 通知メッセージ送信
-![gametalk_announcement_2_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_2_230731.png)
+![gametalk_announcement_2_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_announcement_2_230831.png)
 
 #### (1)送信タイプ
 チャンネルに送信される通知メッセージの送信タイプを選択できます。
@@ -250,7 +250,7 @@ GameTalkコンソールは、次のメニューで構成されています。
 - **予約送信**：時間と標準時間帯を選択して希望の時間に通知メッセージを送信します。
 - **繰り返し送信**：時間と標準時間帯を選択して、希望の時間に送信回数と送信間隔を選択して通知メッセージを送信します。
 
-![gametalk_announcement_3_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_3_230731.png)
+![gametalk_announcement_3_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_announcement_3_230831.png)
 
 #### (2)送信対象
 通知メッセージ対象タイプになるチャンネルを選択できます。
@@ -265,18 +265,18 @@ GameTalkコンソールは、次のメニューで構成されています。
 - **選択言語に翻訳**をクリックして、通知メッセージの内容を希望の言語に翻訳できます。
 
 #### (4)通知メッセージプレビュー
-![gametalk_announcement_4_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_4_230629.png)
+![gametalk_announcement_4_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_announcement_4_230831.png)
 
 - 作成した通知メッセージを確認した後、送信します。
 
 '### 通知メッセージ詳細情報照会
 
-![gametalk_announcement_5_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_5_230731.png)
+![gametalk_announcement_5_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_announcement_5_230831.png)
 
 照会された通知メッセージリストを選択して詳細情報を照会できます。
 繰り返し送信した通知メッセージの場合、各通知メッセージの送信状態を照会できます。
 
-![gametalk_announcement_6_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_6_230731.png)
+![gametalk_announcement_6_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_announcement_6_230831.png)
 
 #### 通知メッセージの送信キャンセル
 準備状態と進行状態の送信されていない通知メッセージは、送信をキャンセルできます。
@@ -296,7 +296,7 @@ GameTalkを使用するユーザーの情報と接続履歴照会、ユーザー
 チャットサービスを利用しているユーザーの情報、接続履歴、購読中のチャンネル一覧などを確認できます。
 ユーザーID、ユーザーニックネームでユーザー情報を検索できます。入力した値と同じユーザーの情報が検索されます。
 
-![gametalk_member_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_member_1_230629.png)
+![gametalk_member_1_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_member_1_230831.png)
 
 ### メンバーの照会
 チャットサービスを利用中のメンバーの情報を照会します。
@@ -313,7 +313,7 @@ GameTalkを使用するユーザーの情報と接続履歴照会、ユーザー
 
 チャットサービスを利用するユーザーの情報、接続履歴、購読中のチャンネルを確認できます。
 
-![gametalk_member_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_member_2_230629.png)
+![gametalk_member_2_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_member_2_230831.png)
 
 #### (1)ユーザーID
 チャットサービスを利用しているユーザーのIDです。
@@ -350,7 +350,7 @@ GameTalkを使用するユーザーの情報と接続履歴照会、ユーザー
 チャットサービスのメッセージを照会できます。
 
 ### メッセージリスト照会
-![gametalk_message_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_message_1_230629.png)
+![gametalk_message_1_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_message_1_230911.png)
 
 #### (1)検索条件
 検索条件を選択します。
@@ -370,7 +370,7 @@ GameTalkを使用するユーザーの情報と接続履歴照会、ユーザー
 チャットサービスを利用するユーザーが通報したメッセージ情報を照会、通報履歴を削除する機能を提供します。
 
 ### 通報メッセージリスト照会
-![gametalk_message_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_message_2_230629.png)
+![gametalk_message_2_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_message_2_230911.png)
 
 #### (1)検索条件
 検索条件を選択します。
@@ -387,7 +387,7 @@ GameTalkを使用するユーザーの情報と接続履歴照会、ユーザー
 削除されたチャンネルの通報メッセージを含めて通報メッセージを検索します。
 
 ### 通報メッセージ詳細照会
-![gametalk_message_3_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_message_3_230629.png)
+![gametalk_message_3_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_message_3_230831.png)
 
 #### (1)チャンネル名(チャンネルID)
 通報メッセージのチャンネル名とチャンネルIDです。
@@ -422,7 +422,7 @@ GameTalkを使用するユーザーの情報と接続履歴照会、ユーザー
 メッセージ文字数制限、通知メッセージの言語、メッセージ送信制限、禁止語、認証情報などGameTalkの設定を管理できます。
 
 ## 一般
-![gametalk_common_setting_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_common_setting_1_230629.png)
+![gametalk_common_setting_1_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_common_setting_1_230831.png)
 ### メッセージ
 メッセージ関連設定ができます。
 
@@ -446,10 +446,10 @@ GameTalkサービスを無効にする前にメッセージ送信制限を設定
 
 ### 禁止語リストの照会
 
-![gametalk_banned_word_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_1_230629.png)
+![gametalk_banned_word_1_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_banned_word_1_230831.png)
 
 ### 禁止語の登録
-![gametalk_banned_word_2_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_2_230731.png)
+![gametalk_banned_word_2_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_banned_word_2_230911.png)
 
 #### (1)名前
 禁止語の名前です。
@@ -472,7 +472,7 @@ GameTalkサービスを無効にする前にメッセージ送信制限を設定
 カンマ(,)で区切られ、最大5,000文字で1,000個まで登録できます。
 カンマを含む禁止語は使用できません。禁止語は重複できません。
 
-![gametalk_banned_word_3_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_3_230731.png)
+![gametalk_banned_word_3_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_banned_word_3_230911.png)
 
 #### (6)アップロード
 Excel文書を添付できます。すでに入力した内容がある場合、アップロードしたファイルの内容を置き換えます。
@@ -485,7 +485,7 @@ GameTalkで提供する基本禁止語リストを適用できます。
 
 ### 禁止語情報の照会
 
-![gametalk_banned_word_4_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_4_230731.png)
+![gametalk_banned_word_4_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_banned_word_4_230831.png)
 
 #### (1)削除
 禁止語を削除できます。
@@ -493,7 +493,7 @@ GameTalkで提供する基本禁止語リストを適用できます。
 
 #### (2)修正
 
-![gametalk_banned_word_5_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_5_230731.png)
+![gametalk_banned_word_5_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_banned_word_5_230831.png)
 
 登録された禁止語を修正できます。
 
@@ -504,7 +504,7 @@ GameTalkで提供する基本禁止語リストを適用できます。
 GameTalkで使用するログイン認証情報を照会・作成・修正・削除することができます。
 ログイン認証情報を登録した場合、Gamebase認証を通じて許可されたユーザーのみチャットを利用できるようにします。
 
-![gametalk_auth_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_auth_1_230629.png)
+![gametalk_auth_1_230831](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_auth_1_230831.png)
 
 #### (1) APP ID
 有効なGamebaseアプリIDです。
@@ -515,7 +515,7 @@ GameTalkで使用するログイン認証情報を照会・作成・修正・削
 #### (3)認証情報の修正
 認証情報App IDとSecret Keyを修正できます。
 
-![gametalk_auth_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_auth_2_230629.png)
+![gametalk_auth_2_230911](https://static.toastoven.net/prod_gametalk/console/jp/gametalk_auth_2_230911.png)
 
 #### (4)認証情報の削除
 認証情報を削除できます。
