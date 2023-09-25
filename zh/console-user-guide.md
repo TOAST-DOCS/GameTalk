@@ -18,7 +18,7 @@ Users can subscribe to channels with an unique channel ID. Users can freely subs
 You can retrieve/create/delete channels.
 
 ### Retrieve Channel List
-![gametalk_channel_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_1_230629.png)
+![gametalk_channel_1_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_channel_1_230911.png)
 
 #### (1) Search Conditions
 
@@ -49,7 +49,7 @@ Search for channel whose delivery time of the last message passed to the Channel
 
 
 ### Channel Creation
-![gametalk_channel_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_2_230629.png)
+![gametalk_channel_2_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_channel_2_230831.png)
 
 #### (1) Channel Name
 Enter the channel name to use.
@@ -70,14 +70,14 @@ Maximum 10 Channel Tags can be registered and the same Tag cannot be duplicated.
 #### (4) Register Tag
 You can register a tag.
 
-![gametalk_channel_3_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_3_230629.png)
+![gametalk_channel_3_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_channel_3_230831.png)
 
 #### (5) Auto Delete Channel
 When the number of subscribers to a channel reaches 0, the channel is automatically deleted.
 When the user unsubscribes from the channel, checks whether the channel has been deleted.
 
 ### Retrieve Channel Information
-![gametalk_channel_4_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_4_230629.png)
+![gametalk_channel_4_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_channel_4_230911.png)
 
 #### (1) Channel Name
 Channel name you entered when creating the Channel.
@@ -109,7 +109,7 @@ Email of the user who created the Channel, date and time of creation.
 #### (10) Channel Member
 The number of users who are currently subscribing to the Channel.
 
-![gametalk_channel_5_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_5_230731.png)
+![gametalk_channel_5_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_channel_5_230831.png)
 
 You can search the channel's subscriber information.
 
@@ -121,7 +121,7 @@ You can send admin messages to the current channel.
 
 #### (13) Modify
 
-![gametalk_channel_6_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_channel_6_230629.png)
+![gametalk_channel_6_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_channel_6_230911.png)
 
 Click **Modify** to switch to a screen where you can modify channel information.
 You can modify the **channel name, channel nickname, channel tag, and whether to automatically delete the channel**.
@@ -143,7 +143,7 @@ You can set maximum 10 Channel Tags per Channel and cannot set duplicate Channel
 
 ### Retrieve Tag List
 
-![gametalk_tag_1_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_1_230731.png)
+![gametalk_tag_1_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_tag_1_230831.png)
 
 You can retrieve registered Tag.
 
@@ -153,7 +153,7 @@ Search for Tags that contain the values you enter in Tag name.
 
 
 ### Register Tag
-![gametalk_tag_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_2_230629.png)
+![gametalk_tag_2_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_tag_2_230831.png)
 
 You can register a tag.
 
@@ -176,7 +176,7 @@ You can register additional tags by clicking on Button.
 
 ### Retrieve Tag Information
 
-![gametalk_tag_3_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_3_230629.png)
+![gametalk_tag_3_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_tag_3_230831.png)
 
 #### (1) Channel Tag name
 Channel Tag name entered when registering Channel Tag.
@@ -191,7 +191,7 @@ Email of the user who modified the Channel Tag, the date and time of modificatio
 Email of the user who created the Channel Tag, the date and time of modification.
 
 #### (5) Modify
-![gametalk_tag_4_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_tag_4_230629.png)
+![gametalk_tag_4_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_tag_4_230831.png)
 Can modify Channel Tag and Channel descriptions.
 
 #### (6) Delete
@@ -208,7 +208,7 @@ You can send announcement message immediately or can choose the time you want to
 
 ### Retrieve Announcement Messages
 
-![gametalk_announcement_1_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_1_230731.png)
+![gametalk_announcement_1_gametalk_announcement_1_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_announcement_1_230911.png)
 
 #### (1) Send Type
 
@@ -241,7 +241,7 @@ Results of the retrieved announcement. Put the mouse cursor over the content to 
 
 
 ### Send Announcement Message
-![gametalk_announcement_2_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_2_230731.png)
+![gametalk_announcement_2_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_announcement_2_230911.png)
 
 #### (1) Send Type
 You can select the type of announcement message sent to the channel.
@@ -250,7 +250,7 @@ You can select the type of announcement message sent to the channel.
 - **Scheduled Send**: Send announcements on the desired time. Select time and time zone to send announcements at the selected time of the selected time zone.
 - **Repetitive Send**: Send announcement messages at the desired time by selecting the time and time zone, and by selecting the number of sendings and the sending interval.
 
-![gametalk_announcement_3_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_3_230731.png)
+![gametalk_announcement_3_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_announcement_3_230911.png)
 
 #### (2) Send To
 You can select a channel to be an announcement target type.
@@ -265,18 +265,18 @@ You can select a channel to be an announcement target type.
 - Click **Translate to Selected Language** button to fill the contents of the remaining languages with the selected language.
 
 #### (4) Announcement Message Preview
-![gametalk_announcement_4_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_4_230629.png)
+![gametalk_announcement_4_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_announcement_4_230831.png)
 
 - Check and send the created announcement message.
 
 ### Retrieve Announcement Message in Detail
 
-![gametalk_announcement_5_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_5_230731.png)
+![gametalk_announcement_5_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_announcement_5_230831.png)
 
 You can view detailed information by selecting the searched announcement message list.
 For announcement messages sent repeatedly, you can query the delivery status of each announcement message.
 
-![gametalk_announcement_6_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_announcement_6_230731.png)
+![gametalk_announcement_6_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_announcement_6_230911.png)
 
 #### Cancel Sending Announcement Messages
 Announcement messages that have not been sent in Ready and In progress can be canceled.
@@ -296,7 +296,7 @@ Provides features to manage users, such as viewing information and access histor
 You can check the information of users who are using the chat service, their access history, and the list of channels they are subscribed to.
 User information can be searched by user ID and user nickname. Information of the same user as the entered value is searched.
 
-![gametalk_member_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_member_1_230629.png)
+![gametalk_member_1_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_member_1_230911.png)
 
 ### View Member
 Retrieve member’s information who are using the chatting service.
@@ -313,7 +313,7 @@ Select Search Conditions
 
 You can check the information of users who use the chat service, their access history, and the channels they are subscribed to.
 
-![gametalk_member_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_member_2_230629.png)
+![gametalk_member_2_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_member_2_230831.png)
 
 #### (1) User ID
 This is the ID of the user using the chat service.
@@ -350,7 +350,7 @@ You can delete users. The user's access history and subscribed channels will be 
 Retrieves messages from the chat service.
 
 ### Retrieve Message List
-![gametalk_message_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_message_1_230629.png)
+![gametalk_message_1_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_message_1_230911.png)
 
 #### (1) Search Conditions
 Select Search Conditions
@@ -370,7 +370,7 @@ Search for messages, including messages from deleted channels.
 View message information reported by users using the chat service and delete report history.
 
 ### Retrieve Report Messages
-![gametalk_message_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_message_2_230629.png)
+![gametalk_message_2_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_message_2_230911.png)
 
 #### (1) Search Conditions
 Select Search Conditions
@@ -387,7 +387,7 @@ Search for report messages with a report message creation date that falls within
 Search for report messages, including report messages from deleted channels.
 
 ### Retrieve Report Message Details
-![gametalk_message_3_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_message_3_230629.png)
+![gametalk_message_3_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_message_3_230831.png)
 
 #### (1) Channel name (channel ID)
 The channel name and channel ID of the report message.
@@ -422,7 +422,7 @@ You can delete the report history.
 Limitation of the number of characters, language of announcement message, message sending restriction, forbidden word, credentials management.
 
 ## General
-![gametalk_common_setting_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_common_setting_1_230629.png)
+![gametalk_common_setting_1_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_common_setting_1_230911.png)
 ### Message
 You can do settings about message
 
@@ -446,10 +446,10 @@ You can manage forbidden words applying to message.
 
 ### Retrieve Forbidden Word List
 
-![gametalk_banned_word_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_1_230629.png)
+![gametalk_banned_word_1_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_banned_word_1_230831.png)
 
 ### Register Forbidden Word
-![gametalk_banned_word_2_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_2_230731.png)
+![gametalk_banned_word_2_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_banned_word_2_230831.png)
 
 #### (1) Name
 Name of Forbidden Word
@@ -472,7 +472,7 @@ It is a forbidden word to apply.
 It is separated with commas (,) and can be registered up to 5,000 byte and 1,000 units.
 You cannot use forbidden words including commas. Forbidden words cannot be duplicated.
 
-![gametalk_banned_word_3_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_3_230731.png)
+![gametalk_banned_word_3_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_banned_word_3_230831.png)
 
 #### (6) Upload
 You can attach an Excel document. If there is any content previously entered, replace it with the contents of the uploaded file.
@@ -485,7 +485,7 @@ You can download the currently registered forbidden word list as an Excel file.
 
 ### Retrieve Forbidden Word List
 
-![gametalk_banned_word_4_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_4_230731.png)
+![gametalk_banned_word_4_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_banned_word_4_230831.png)
 
 #### (1) Delete
 You can delete a forbidden word.
@@ -493,7 +493,7 @@ Once forbidden word is deleted, it cannot be reverted.
 
 #### (2) Modify
 
-![gametalk_banned_word_5_230731](https://static.toastoven.net/prod_gametalk/console/gametalk_banned_word_5_230731.png)
+![gametalk_banned_word_5_230831](https://static.toastoven.net/prod_gametalk/console/en/gametalk_banned_word_5_230831.png)
 
 You can modify the registered banned word.
 
@@ -504,7 +504,7 @@ You can modify the registered banned word.
 You can view, create, modify, or delete login authentication information used in GameTalk.
 If login authentication information is registered, only allowed users can use the chat through Gamebase authentication.
 
-![gametalk_auth_1_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_auth_1_230629.png)
+![gametalk_auth_1_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_auth_1_230911.png)
 
 #### (1) APP ID
 It is activated GameBase App ID.
@@ -515,7 +515,7 @@ It is activated GameBase App Secret Key.
 #### (3) Modify Authentication Information
 You can edit authentication information App ID and Secret Key.
 
-![gametalk_auth_2_230629](https://static.toastoven.net/prod_gametalk/console/gametalk_auth_2_230629.png)
+![gametalk_auth_2_230911](https://static.toastoven.net/prod_gametalk/console/en/gametalk_auth_2_230911.png)
 
 #### (4) Delete Authentication Information
 You can delete authentication information.
